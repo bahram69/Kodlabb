@@ -1,0 +1,114 @@
+#wrapper {
+    width:95%;
+    max-wigth:1200px;
+	min-width: 871px;
+    height:auto;
+	margin: auto;
+}
+
+header {
+	font-family:'Audiowide', cursive;;
+	font-size: 30px;
+    font-weight: 10;
+	color: #ccd1d1;
+	margin:  0.5% 0;
+	width:100%;
+	min-width: 871px;
+	height:auto;
+	max-height: 290px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-image: url("../bilder/Headbar.jpg");
+	float:left;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+header h1 {
+	margin-left: 0.5%;
+}
+
+nav {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	clear:both;
+	width:100%;
+	min-width: 871px;
+    height:40px;
+    background:#257a72;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+nav ul {
+	list-style: none;
+	margin-left: 0 auto;
+}
+
+nav ul li {
+	float: left;
+	display: inline;
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	
+}
+
+nav a:link, nav a:visited {
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	height: 20px
+}
+
+nav a:hover, nav a:active, 
+nav .active a:link, nav .active a:visited {
+	background-color: #040404;
+	transition-duration: 2s;
+	text-shadow: none;
+}
+
+#main-content {
+    width:100%;
+    min-width: 871px;
+    height:auto;
+    min-height:320px;
+	margin-top: 120px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.img {
+	align-content: center;
+    margin: 7px;
+    display: inline-flex;
+	transition: 700ms;
+  	transform: translateZ(0px);
+  	box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+.img:hover {
+	transform: translateZ(50px) rotate(-5deg);
+  	box-shadow: 0px 0px 10px rgba(0,0,0,8);
+}
+
+
+footer{
+	font-family: 'Maven Pro', sans-serif;
+	color: #fff;
+    clear:both;
+    width:100%;
+    min-width: 871px;
+    height:50px;
+    background:#257a72;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
