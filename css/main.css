@@ -1,3 +1,4 @@
+
 #wrapper {
     width: 97%;
     max-width: 1600px;
@@ -7,5 +8,74 @@
     margin-left: auto;
 }
 .mainlogo {
-    margin: 34px 0px 0px 299px;
+    margin: 34px 0px 0px 299px
+}
+
+#wrap {
+  margin: -96px 299px;
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  float: right;
+  padding: 0px;
+  position: relative;
+    border-radius: 9px;
+  -moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+}
+
+input[type="text"] {
+  height: 60px;
+  font-size: 20px;
+  display: inline-block;
+  font-family: inherit;
+  padding: 0px 60px 0px 13px;
+  font-weight: 60;
+  border: none;
+  outline: none;
+  color: #000000;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  background-color: #e2e2e2;
+  z-index: 1;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+}
+
+input[type="text"]:focus:hover {
+    background-color: #e2e2e2;
+}
+
+input[type="text"]:focus {
+  width: 300px;
+  z-index: 1;
+  background-color: #e2e2e2;
+  cursor: pointer;
+  
+}
+input[type="submit"] {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  float: right;
+  background: url(/images/search-icon.png) center center no-repeat;
+  text-indent: -10000px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  transition: width .8s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+  
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+  transition: opacity .4s ease;
 }

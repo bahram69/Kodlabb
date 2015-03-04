@@ -73,17 +73,11 @@
 }
 
 .sb-icon-search {
-	color: #fff;
+	
 	background: #47c9af;
 	z-index: 90;
-	font-size: 22px;
-	font-family: 'icomoon';
 	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	-webkit-font-smoothing: antialiased;
+	
 }
 
 .sb-icon-search:before {
@@ -94,16 +88,4 @@
 .sb-search.sb-search-open,
 .no-js .sb-search {
 	width: 100%;
-}
-
-.sb-search.sb-search-open .sb-icon-search,
-.no-js .sb-search .sb-icon-search {
-	background: #47c9af;
-	color: #fff;
-	z-index: 11;
-}
-
-.sb-search.sb-search-open .sb-search-submit,
-.no-js .sb-search .sb-search-submit {
-	z-index: 90;
 }
