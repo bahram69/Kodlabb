@@ -3,24 +3,48 @@ Designed and coded by Bahram Alizadeh
 www.terabyte-tech.com
 ----->
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="sv" class="no-js">
     <div id="wrapper">
     <head>
         <meta charset="utf-8">
         <title>Top Creative: Let us design your web!</title>
-        <link href="css/main.css" rel="stylsheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
         <link rel="shortcut icon" href="/favicon.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="Expanding Search Bar Deconstructed" />
+		<meta name="keywords" content="transition, search, expanding, search input, sliding input, css3, javascript" />
+		<meta name="author" content="Codrops" /> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
    
     </head>
     
     <body>
         <header>
             <div class="mainlogo">
-                <img src="images/mainlogo.png" alt="Top Creative" width="459" height="148" style="margin: 34px 0px 0px 299px">
+                <img src="images/mainlogo.png" alt="Top Creative" width="459" height="148">
             </div>
            
    
-        </header>
+        </header>     
+        				<div class="column">
+					<div id="sb-search" class="sb-search">
+						<form>
+							<input class="sb-search-input" placeholder="Sök..." type="text" value="" name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/uisearch.js"></script>
+		<script>
+			new UISearch( document.getElementById( 'sb-search' ) );
+		</script>
         
     
     </body>
