@@ -1,0 +1,8 @@
+#wrapper {
+    width: 97%;
+    max-width: 1600px;
+    min-width: 1000px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
